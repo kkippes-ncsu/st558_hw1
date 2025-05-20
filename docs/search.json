@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "step3.html",
+    "href": "step3.html",
+    "title": "Starting as a Data Scientist",
+    "section": "",
+    "text": "Being a data scientist is about having the technical and story-telling skills to answer complex statistical questions. It is not only being able to talk about the results of data but also manipulating it efficient ways.\nI think data scientists and statisticians both use statistical methods to analyze data in order to solve real-world problems. However, I think statisticians are more focused on the mathematical rigor behind the analysis whereas data scientists are more focused on the machine learning and process improvements to solve the analysis.\nI would say I am a healthy blend of both areas. As a Marketing Analyst I am always making sure my methodologies have statistical significance and are deployed correctly but at the same time I am constantly updating and improving upon my processes to make the job easier in the future."
+  },
+  {
+    "objectID": "step3.html#question-answers",
+    "href": "step3.html#question-answers",
+    "title": "Starting as a Data Scientist",
+    "section": "",
+    "text": "Being a data scientist is about having the technical and story-telling skills to answer complex statistical questions. It is not only being able to talk about the results of data but also manipulating it efficient ways.\nI think data scientists and statisticians both use statistical methods to analyze data in order to solve real-world problems. However, I think statisticians are more focused on the mathematical rigor behind the analysis whereas data scientists are more focused on the machine learning and process improvements to solve the analysis.\nI would say I am a healthy blend of both areas. As a Marketing Analyst I am always making sure my methodologies have statistical significance and are deployed correctly but at the same time I am constantly updating and improving upon my processes to make the job easier in the future."
+  },
+  {
+    "objectID": "step3.html#r-section",
+    "href": "step3.html#r-section",
+    "title": "Starting as a Data Scientist",
+    "section": "R Section",
+    "text": "R Section\nInitial R Code:\n\n y &lt;- density(iris$Petal.Width)\n\nDetermining the class, type, and structure of the object y:\n\n#class of y\nclass(y)\n\n[1] \"density\"\n\n#type of the object y\ntypeof(y)\n\n[1] \"list\"\n\n#structure of y\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nPlotting y but hiding the R code from the final document:"
+  }
+]

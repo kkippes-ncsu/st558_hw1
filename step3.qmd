@@ -1,0 +1,40 @@
+---
+title: "Starting as a Data Scientist"
+author: Kayla Kippes
+format: html
+editor: visual
+---
+
+## Question Answers
+
+-   Being a data scientist is about having the technical and story-telling skills to answer complex statistical questions. It is not only being able to talk about the results of data but also manipulating it efficient ways.
+
+-   I think data scientists and statisticians both use statistical methods to analyze data in order to solve real-world problems. However, I think statisticians are more focused on the mathematical rigor behind the analysis whereas data scientists are more focused on the machine learning and process improvements to solve the analysis.
+
+-   I would say I am a healthy blend of both areas. As a Marketing Analyst I am always making sure my methodologies have statistical significance and are deployed correctly but at the same time I am constantly updating and improving upon my processes to make the job easier in the future.
+
+## R Section
+
+Initial R Code:
+
+```{r}
+ y <- density(iris$Petal.Width)
+```
+
+Determining the class, type, and structure of the object y:
+
+```{r}
+#class of y
+class(y)
+#type of the object y
+typeof(y)
+#structure of y
+str(y)
+```
+
+Plotting y but hiding the R code from the final document:
+
+```{r}
+#| echo: false
+plot(y)
+```
